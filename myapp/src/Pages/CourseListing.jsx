@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getCourses } from '../Redux/CoursesReducer/action'
 import { Coursecard } from '../Components/Coursecard'
+import { Input, InputGroup, InputRightElement } from '@chakra-ui/react';
+import { SearchIcon } from '@chakra-ui/icons';
 import "../Css_Styles/CourseListing.css"
 export const CourseListing = () => {
     
@@ -33,13 +35,23 @@ export const CourseListing = () => {
   return (
     <div className='container'>
         <div className='Searchbar'>
-            <input type='text' placeholder='Search' onChange={(e)=>setQuery(e.target.value)}/>
+        <InputGroup width="100%" maxW="400px" mb="20px">
+      <InputRightElement
+        pointerEvents="none"
+        children={<SearchIcon color="black" />}
+      />
+      <Input
+        type="text"
+        placeholder="Search for Course eg.React native"
+        onChange={(e) => setQuery(e.target.value)}
+      />
+    </InputGroup>
         </div>
-        <div className='card-container'>
+       {data ? (<div className='card-container'>
             {data.map((el)=>{
                 return <Coursecard key={el.id} {...el}/>
             })}
-        </div>
+        </div>): <h1>...Loading</h1>}
     </div>
   )
 }
