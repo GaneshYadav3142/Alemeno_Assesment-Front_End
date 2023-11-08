@@ -1,0 +1,213 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://crowdbotics.ghost.io/content/images/2021/05/React-Native-Featured-Image.png",
+      "duration": "8 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "Familiarity with React"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice Johnson",
+          "email": "alice@example.com"
+        },
+        {
+          "id": 102,
+          "name": "Bob Smith",
+          "email": "bob@example.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced JavaScript Concepts",
+      "instructor": "Jane Smith",
+      "description": "Deepen your understanding of JavaScript with advanced concepts and techniques",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Symbol.png",
+      "duration": "6 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Intermediate JavaScript knowledge",
+        "Experience with web development"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Closures and Scopes",
+          "content": "Understanding closures, lexical scoping, and their applications."
+        },
+        {
+          "week": 2,
+          "topic": "Asynchronous Programming",
+          "content": "Working with callbacks, promises, and async/await."
+        }
+      ],
+      "students": [
+        {
+          "id": 201,
+          "name": "Eva Martinez",
+          "email": "eva@example.com"
+        },
+        {
+          "id": 202,
+          "name": "David Lee",
+          "email": "david@example.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Data Science Fundamentals",
+      "instructor": "Maria Rodriguez",
+      "description": "Explore the basics of data science, including statistics, machine learning, and data analysis.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://meritglobaltraining.com/backend/uploads/d4ff46aff362d7b990c01213860ef911.png",
+      "duration": "10 weeks",
+      "schedule": "Fridays, 5:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic math knowledge",
+        "Programming fundamentals"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Data Science",
+          "content": "Overview of data science, its applications, and the data science workflow."
+        },
+        {
+          "week": 2,
+          "topic": "Statistics and Probability",
+          "content": "Fundamental concepts of statistics and probability theory."
+        }
+      ],
+      "students": [
+        {
+          "id": 301,
+          "name": "Michael Brown",
+          "email": "michael@example.com"
+        },
+        {
+          "id": 302,
+          "name": "Sophia Miller",
+          "email": "sophia@example.com"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Web Development Bootcamp",
+      "instructor": "Alex Johnson",
+      "description": "Learn web development from scratch and build interactive websites and web applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg",
+      "duration": "12 weeks",
+      "schedule": "Mondays, Wednesdays, and Fridays, 6:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic HTML and CSS knowledge",
+        "Familiarity with programming concepts"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Web Technologies",
+          "content": "Overview of HTML, CSS, and basic web development concepts."
+        },
+        {
+          "week": 2,
+          "topic": "JavaScript Fundamentals",
+          "content": "Fundamental concepts of JavaScript programming language."
+        }
+      ],
+      "students": [
+        {
+          "id": 401,
+          "name": "Liam Davis",
+          "email": "liam@example.com"
+        },
+        {
+          "id": 402,
+          "name": "Emma White",
+          "email": "emma@example.com"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mobile App Design and UX",
+      "instructor": "Sophie Turner",
+      "description": "Explore mobile app design principles, user experience, and usability testing.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://5.imimg.com/data5/XJ/UT/MY-6623185/ios-mobile-ui-and-ux-designs-500x500.jpg",
+      "duration": "8 weeks",
+      "schedule": "Thursdays, 4:00 PM - 7:00 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic design knowledge",
+        "Interest in mobile app development"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Mobile App Design",
+          "content": "Overview of mobile app design principles and user interface elements."
+        },
+        {
+          "week": 2,
+          "topic": "Usability Testing and Feedback",
+          "content": "Methods for usability testing and gathering user feedback."
+        }
+      ],
+      "students": [
+        {
+          "id": 501,
+          "name": "Oliver Turner",
+          "email": "oliver@example.com"
+        },
+        {
+          "id": 502,
+          "name": "Ava Parker",
+          "email": "ava@example.com"
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "1234"
+    },
+    {
+      "name": "Ganesh Yadav",
+      "email": "ganesh@123",
+      "password": "12345",
+      "id": 2
+    }
+  ]
+}
