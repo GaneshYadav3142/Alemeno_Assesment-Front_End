@@ -28,12 +28,10 @@
       ],
       "students": [
         {
-          "id": 101,
           "name": "Alice Johnson",
           "email": "alice@example.com"
         },
         {
-          "id": 102,
           "name": "Bob Smith",
           "email": "bob@example.com"
         }
@@ -67,21 +65,23 @@
       ],
       "students": [
         {
-          "id": 201,
           "name": "Eva Martinez",
           "email": "eva@example.com"
         },
         {
-          "id": 202,
           "name": "David Lee",
           "email": "david@example.com"
+        },
+        {
+          "name": "alice",
+          "email": "alice@example.com"
         }
       ]
     },
     {
       "id": 3,
       "name": "Data Science Fundamentals",
-      "instructor": "Maria Rodriguez",
+      "instructor": "Maria Rod",
       "description": "Explore the basics of data science, including statistics, machine learning, and data analysis.",
       "enrollmentStatus": "Open",
       "thumbnail": "https://meritglobaltraining.com/backend/uploads/d4ff46aff362d7b990c01213860ef911.png",
@@ -106,12 +106,10 @@
       ],
       "students": [
         {
-          "id": 301,
           "name": "Michael Brown",
           "email": "michael@example.com"
         },
         {
-          "id": 302,
           "name": "Sophia Miller",
           "email": "sophia@example.com"
         }
@@ -122,7 +120,7 @@
       "name": "Web Development Bootcamp",
       "instructor": "Alex Johnson",
       "description": "Learn web development from scratch and build interactive websites and web applications.",
-      "enrollmentStatus": "Open",
+      "enrollmentStatus": "In Progress",
       "thumbnail": "https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg",
       "duration": "12 weeks",
       "schedule": "Mondays, Wednesdays, and Fridays, 6:00 PM - 9:00 PM",
@@ -145,52 +143,88 @@
       ],
       "students": [
         {
-          "id": 401,
           "name": "Liam Davis",
           "email": "liam@example.com"
         },
         {
-          "id": 402,
           "name": "Emma White",
           "email": "emma@example.com"
+        },
+        {
+          "name": "alice",
+          "email": "alice@example.com"
         }
       ]
     },
     {
       "id": 5,
-      "name": "Mobile App Design and UX",
-      "instructor": "Sophie Turner",
-      "description": "Explore mobile app design principles, user experience, and usability testing.",
+      "name": "Python Programming Basics",
+      "instructor": "Sarah Johnson",
+      "description": "Learn the fundamentals of Python programming language, including syntax, data types, and basic algorithms.",
       "enrollmentStatus": "Open",
-      "thumbnail": "https://5.imimg.com/data5/XJ/UT/MY-6623185/ios-mobile-ui-and-ux-designs-500x500.jpg",
-      "duration": "8 weeks",
-      "schedule": "Thursdays, 4:00 PM - 7:00 PM",
+      "thumbnail": "https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/06/Python-Programming-Edureka.png",
+      "duration": "6 weeks",
+      "schedule": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
       "location": "Online",
       "prerequisites": [
-        "Basic design knowledge",
-        "Interest in mobile app development"
+        "Basic understanding of computer programming concepts"
       ],
       "syllabus": [
         {
           "week": 1,
-          "topic": "Introduction to Mobile App Design",
-          "content": "Overview of mobile app design principles and user interface elements."
+          "topic": "Introduction to Python",
+          "content": "Overview of Python programming language, installation, and basic syntax."
         },
         {
           "week": 2,
-          "topic": "Usability Testing and Feedback",
-          "content": "Methods for usability testing and gathering user feedback."
+          "topic": "Variables and Data Types",
+          "content": "Understanding variables, data types, and basic operations in Python."
         }
       ],
       "students": [
         {
-          "id": 501,
-          "name": "Oliver Turner",
-          "email": "oliver@example.com"
+          "name": "Sophie Clark",
+          "email": "sophie@example.com"
         },
         {
-          "id": 502,
-          "name": "Ava Parker",
+          "name": "Oliver Brown",
+          "email": "oliver@example.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Introduction to Artificial Intelligence",
+      "instructor": "David Smith",
+      "description": "Explore the basics of artificial intelligence, machine learning, and neural networks.",
+      "enrollmentStatus": "Closed",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:631/1*TiORvHgrJPme_lEiX3olVA.png",
+      "duration": "8 weeks",
+      "schedule": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+      "location": "Online",
+      "prerequisites": [
+        "Basic knowledge of mathematics",
+        "Programming experience in Python"
+      ],
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to AI",
+          "content": "Overview of artificial intelligence, its applications, and history."
+        },
+        {
+          "week": 2,
+          "topic": "Machine Learning Fundamentals",
+          "content": "Basic concepts of machine learning, supervised and unsupervised learning."
+        }
+      ],
+      "students": [
+        {
+          "name": "Noah Johnson",
+          "email": "noah@example.com"
+        },
+        {
+          "name": "Ava Davis",
           "email": "ava@example.com"
         }
       ]

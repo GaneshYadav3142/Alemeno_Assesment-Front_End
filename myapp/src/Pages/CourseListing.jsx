@@ -47,11 +47,11 @@ export const CourseListing = () => {
       />
     </InputGroup>
         </div>
-       {data ? (<div className='card-container'>
+       <div className='card-container'>
             {data.map((el)=>{
                 return <Coursecard key={el.id} {...el}/>
             })}
-        </div>): <h1>...Loading</h1>}
+        </div>
     </div>
   )
 }

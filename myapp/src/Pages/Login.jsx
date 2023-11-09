@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import "../Css_Styles/Login.css"
 export const Login = () => {
+         const [name,setName]=useState("")
          const [email,setEmail]=useState("")
          const [password,setPassword]=useState("")
          const navigate = useNavigate();
@@ -21,6 +22,8 @@ export const Login = () => {
                    console.log(data)
                    const matchedUser=data.find((el)=>email===el.email && password===el.password)
                    if(matchedUser){
+                    localStorage.setItem("email",email)
+                    localStorage.setItem("name",name)
                     alert("Login Successful")
                     navigate("/dashboard")
                    }
@@ -38,6 +41,10 @@ export const Login = () => {
     <div className='login-container'>
          <h1>Login page</h1>
          <form onSubmit={handelSubmit}>
+         <div>
+            <label htmlFor="name">Name</label>
+            <input type="text" value={name} id="name" placeholder='Enter your Name' required onChange={(e)=>setName(e.target.value)}/>
+        </div>
         <div>
             <label htmlFor="email">Email</label>
             <input type="email" value={email} id="email" placeholder='Enter your Email' required onChange={(e)=>setEmail(e.target.value)}/>

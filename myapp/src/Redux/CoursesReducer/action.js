@@ -18,5 +18,3 @@ export const getCourses = (query) => (dispatch) => {
       dispatch({ type: COURSE_FAILURE });
     });
 };
-
-

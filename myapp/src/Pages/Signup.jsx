@@ -33,8 +33,10 @@ export const Signup = () => {
                 }).then((res)=>res.json())
                 .then((data)=>{
                     console.log(data)
+                    localStorage.setItem("name",name)
+                    localStorage.setItem("email",email)
                     alert("user added Successfully")
-                    
+                    navigate("/dashboard")
                 }).catch((error)=>{
                     console.log(error)
                 })
