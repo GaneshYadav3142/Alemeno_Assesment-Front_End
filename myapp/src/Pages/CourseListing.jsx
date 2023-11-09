@@ -28,7 +28,7 @@ export const CourseListing = () => {
    
      ref.current=setTimeout(()=>{
        dispatch(getCourses(paramObj))
-     },1000)
+     },700)
      
     },[query])
     console.log(data)
