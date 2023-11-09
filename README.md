@@ -1,6 +1,6 @@
 # Alemeno_Assesment-Front_end
 
-# Web Application README
+# LMS Web Application README
 
 This web application consists of a frontend and a backend. Below are instructions on how to run each part of the application.
 
@@ -32,4 +32,11 @@ The frontend of the application is built using React.js. To run the frontend dev
 
 3. it uses **PATCH** request as well as **POST** request.
 
+4. It has the **Protected Route** also for all the Routing
 
+## Using the App
+
+1.Go on and Register Yourself or otherwise if you are previosly register  login yourself
+![Register Page](./myapp/src/Assets/signup.jpg)
+
+![Login Page](./myapp/src/Assets/login.jpg)
