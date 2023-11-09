@@ -30,30 +30,30 @@ The frontend of the application is built using React.js. To run the frontend dev
 2. Start the frontend development server using the following command: **npm run start**
 
 
-3. it uses **PATCH** request as well as **POST** request.
+3. It uses **PATCH** request as well as **POST** request.
 
-4. It has the **Protected Route** also for all the Routing
+4. It has the **Protected Route**  with **Auth Guard**  for all the Routing.
 
 ## Using the App
 
-1.Go on and Register Yourself or otherwise if you are previosly register  login yourself
+1. Go on and Register Yourself or otherwise if you are previosly register  login yourself
 ![Register Page](./myapp/src/Assets/signup.jpg)
 
 ![Login Page](./myapp/src/Assets/login.jpg)
 
-2.We you Register Successfully you are redirected to Dashboard with enrolled Courses if you have enrolled or otherwise it will show no Courses enrolled please enrolled from Course Page
+2. When you Register Successfully you are redirected to Dashboard with enrolled Courses if you have enrolled or otherwise it will show no Courses enrolled please enrolled from Course Page
 
 ![Dashboard Page](./myapp/src/Assets/Dashboardpage.jpg)
 
 
-3.Check For the Coures available in Courses section and enroll for the Course available
+3. Check For the Coures available in Courses section and enroll for the Course available
 
 ![Course Listing Page](./myapp/src/Assets/CourseListing.jpg)
 
 
-4.You can also view the Course Details by Clicking on view Details Button
+4. You can also view the Course Details by Clicking on view Details Button
 
 ![Course Details Page](./myapp/src/Assets/CouseDetailspage.jpg)
 
 
-5.Finally you can logout by Clicking on the Logout section, you will be Redirected to Homepage
+5. Finally you can logout by Clicking on the Logout section, you will be Redirected to Homepage
