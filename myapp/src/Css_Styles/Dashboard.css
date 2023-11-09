@@ -23,7 +23,7 @@
     transform: scale(1.05);
   }
   
-  /* CSS for the card image */
+
   .card .image img {
     width: 100%;
     height: 200px;
@@ -31,7 +31,6 @@
     padding: 5px;
   }
   
-  /* CSS for the card description */
   .card .card-desc {
     padding: 20px;
     text-align: left;

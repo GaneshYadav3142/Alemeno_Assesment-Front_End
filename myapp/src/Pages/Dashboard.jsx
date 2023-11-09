@@ -14,6 +14,7 @@ export const Dashboard = () => {
     setProgress((prevProgress) => {
       return { ...prevProgress, [id]: 100 };
     });
+    alert("Marked Completed")
    }
    const handelPending=(id)=>{
     setProgress((prevProgress) => {
@@ -42,7 +43,7 @@ export const Dashboard = () => {
           </div>
       </div>)
         })) :
-        (<div className="no-courses-message">You have not enrolled in any courses. Please enroll from the Course section.</div>)
+        (<div className="no-courses-message" style={{textAlign:"center"}}><h1>You have not enrolled in any courses. Please enroll from the Course section.</h1></div>)
         }
        
     </div>

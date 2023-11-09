@@ -4,20 +4,20 @@ import { Link } from 'react-router-dom'
 import { Badge, Button} from '@chakra-ui/react'
 import { postStudent } from '../Redux/EnrollReducer/action'
 import { useDispatch, useSelector } from 'react-redux'
-import { store } from '../Redux/store'
+
 import { getBadgeColor } from '../Pages/CourseDetails'
 export const Coursecard = ({id,thumbnail,name,instructor,enrollmentStatus,duration,schedule}) => {
     const dispatch=useDispatch()
-   console.log(enrollmentStatus)
+
      const email=localStorage.getItem("email")
      const name1=localStorage.getItem("name")
     const student={name:name1,email:email}
     const data=useSelector((store)=>store.StudentReducer.students)
-    console.log(data)
+
+
      const handelEnroll=(id,student)=>{
-      console.log("clicked")
        dispatch(postStudent(id,student))
-     
+     alert("Enrollment Successful")
     }
   return (
     <div className='card'>

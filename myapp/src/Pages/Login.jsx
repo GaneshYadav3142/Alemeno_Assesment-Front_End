@@ -24,6 +24,7 @@ export const Login = () => {
                    if(matchedUser){
                     localStorage.setItem("email",email)
                     localStorage.setItem("name",name)
+                    localStorage.setItem("isAuth",true)
                     alert("Login Successful")
                     navigate("/dashboard")
                    }
@@ -39,6 +40,7 @@ export const Login = () => {
 
   return (
     <div className='login-container'>
+      <h1>Authentication Protected Login/Register first</h1>
          <h1>Login page</h1>
          <form onSubmit={handelSubmit}>
          <div>

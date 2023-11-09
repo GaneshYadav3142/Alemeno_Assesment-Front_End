@@ -1,6 +1,6 @@
 import axios from "axios";
 import { COURSE_FAILURE, COURSE_REQUEST, COURSE_SUCCESS } from "./actionType";
-import { store } from "../store";
+
 
 export const getCourses = (query) => (dispatch) => {
   dispatch({ type: COURSE_REQUEST });

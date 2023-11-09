@@ -35,6 +35,7 @@ export const Signup = () => {
                     console.log(data)
                     localStorage.setItem("name",name)
                     localStorage.setItem("email",email)
+                    localStorage.setItem("isAuth",true)
                     alert("user added Successfully")
                     navigate("/dashboard")
                 }).catch((error)=>{

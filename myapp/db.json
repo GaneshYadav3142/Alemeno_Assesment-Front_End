@@ -34,6 +34,10 @@
         {
           "name": "Bob Smith",
           "email": "bob@example.com"
+        },
+        {
+          "name": "Ganesh Yadav",
+          "email": "ganesh@123"
         }
       ]
     },
@@ -112,6 +116,10 @@
         {
           "name": "Sophia Miller",
           "email": "sophia@example.com"
+        },
+        {
+          "name": "Chetan Chauhan",
+          "email": "chetan@123"
         }
       ]
     },
@@ -240,8 +248,14 @@
     {
       "name": "Ganesh Yadav",
       "email": "ganesh@123",
-      "password": "12345",
+      "password": "1234",
       "id": 2
+    },
+    {
+      "name": "Chetan Chauhan",
+      "email": "chetan@123",
+      "password": "1234",
+      "id": 3
     }
   ]
 }

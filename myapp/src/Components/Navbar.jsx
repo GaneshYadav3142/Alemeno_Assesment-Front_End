@@ -12,9 +12,10 @@ export const Navbar = () => {
   return (
    <div className={`topnav ${isResponsive ? 'responsive' : ''}`} id="myTopnav">
     <Link to="/" className="active"> Home</Link>
-    <Link to="/dashboard" >Dashboard</Link>
     <Link to="/signup" >SignUp</Link>
+    <Link to="/dashboard" >Dashboard</Link>
     <Link to="/courses" >Courses</Link>
+    <Link to="/logout" >Logout</Link>
     <a  className="icon"  onClick={toggleResponsive}>
     <HamburgerIcon/>
       </a>
