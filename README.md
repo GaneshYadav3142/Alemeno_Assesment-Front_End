@@ -2,7 +2,7 @@
 
 # LMS Web Application README
 
-This web application consists of a frontend and a backend. Below are instructions on how to run each part of the application.
+This is small LMS  web application consists of a frontend and a backend.This web application is full responsive on all the Devices such as Large, Medium and Small Screens Below are instructions on how to run each part of the application.
 
 ## Backend
 
@@ -40,3 +40,20 @@ The frontend of the application is built using React.js. To run the frontend dev
 ![Register Page](./myapp/src/Assets/signup.jpg)
 
 ![Login Page](./myapp/src/Assets/login.jpg)
+
+2.We you Register Successfully you are redirected to Dashboard with enrolled Courses if you have enrolled or otherwise it will show no Courses enrolled please enrolled from Course Page
+
+![Dashboard Page](./myapp/src/Assets/Dashboardpage.jpg)
+
+
+3.Check For the Coures available in Courses section and enroll for the Course available
+
+![Course Listing Page](./myapp/src/Assets/CourseListing.jpg)
+
+
+4.You can also view the Course Details by Clicking on view Details Button
+
+![Course Details Page](./myapp/src/Assets/CouseDetailspage.jpg)
+
+
+5.Finally you can logout by Clicking on the Logout section, you will be Redirected to Homepage
