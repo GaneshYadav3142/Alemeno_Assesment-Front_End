@@ -36,8 +36,8 @@
           "email": "bob@example.com"
         },
         {
-          "name": "Ganesh Yadav",
-          "email": "ganesh@123"
+          "name": "alen",
+          "email": "alen@123"
         }
       ]
     },
@@ -75,10 +75,6 @@
         {
           "name": "David Lee",
           "email": "david@example.com"
-        },
-        {
-          "name": "alice",
-          "email": "alice@example.com"
         }
       ]
     },
@@ -116,10 +112,6 @@
         {
           "name": "Sophia Miller",
           "email": "sophia@example.com"
-        },
-        {
-          "name": "Chetan Chauhan",
-          "email": "chetan@123"
         }
       ]
     },
@@ -157,10 +149,6 @@
         {
           "name": "Emma White",
           "email": "emma@example.com"
-        },
-        {
-          "name": "alice",
-          "email": "alice@example.com"
         }
       ]
     },
@@ -256,6 +244,12 @@
       "email": "chetan@123",
       "password": "1234",
       "id": 3
+    },
+    {
+      "name": "REEBOK",
+      "email": "reeebok@123",
+      "password": "1234",
+      "id": 4
     }
   ]
 }

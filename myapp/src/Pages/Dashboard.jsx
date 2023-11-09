@@ -43,7 +43,8 @@ export const Dashboard = () => {
           </div>
       </div>)
         })) :
-        (<div className="no-courses-message" style={{textAlign:"center"}}><h1>You have not enrolled in any courses. Please enroll from the Course section.</h1></div>)
+        (
+          <h1 style={{marginLeft:"10%"}}>You have not enrolled in any courses. Please enroll from the Course section.</h1>)
         }
        
     </div>
